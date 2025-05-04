@@ -1,0 +1,14 @@
+#paragrafo {
+    font-size: 30px;
+    color: chocolate;
+    font-style: italic;
+}
+
+img {
+   margin-left: 40%;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: ease-in-out 400ms;
+}

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 80px;
+
+    /* 
+        width e height recebem unidades de medida, porcentagens (do espaço disponível) ou o valor automático. É possível receber por herança também
+
+        a largura e altura de um elemento não inclui preenchimentos, bordas ou margens
+    */
+
+    text-align: center;
+    background-color: burlywood;
+}
+
+img {
+    width: 100%;
+
+    /* min/max-height/width: DEFINEM AS ALTURAS OU LARGURAS MÍNIMAS OU MÁMIXAS DO ELEMENTO; Elas tem preferência sobre a width e a height*/
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.heranca {
+    width: 500px;
+    height: 500px;
+
+    margin: auto;
+
+    border: 2px solid black;
+}
+
+.heranca img {
+    /* width: inherit;
+    height: inherit; */
+
+    max-width: 450px;
+}
+
+/* 
+    WIDTH E HEIGHT
+    
+    POR PADRÃO, DEFINEM A ÁREA DE CONTEÚDO, MAS PODEM SER ALTERADAS PARA DEFINIREM A ÁREA DA 
+    BORDA, USANDO box-sizing: border-box;
+
+    QUANDO A width/height DE UM ELEMENTO ULTRAPASSA OS LIMITES MÁXIMOS OU MÍNIMOS, A 
+    width/height É SUBSTITUÍDA PELA min/max-height/width DA IMAGEM.
+*/

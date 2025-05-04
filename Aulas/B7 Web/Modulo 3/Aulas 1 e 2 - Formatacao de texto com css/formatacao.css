@@ -1,0 +1,22 @@
+p {
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* TRANSFORMA O TEXTO EM MAIÚSCULO OU MENÚSCULO */
+    text-transform: uppercase;
+
+    /* CONTROLA A ESPAÇAMENTO ENTRE AS LETRAS */
+    letter-spacing: 3px;
+
+    /* CONTROLA O ESPAÇAMENTO ENTRE PALAVRAS */
+    word-spacing: 10px;
+
+    /* CONTROLANDO A ALTURA DA LINHA */
+    line-height: 30px;
+
+    /* ADICIONA SOMBRA NO TEXTO */
+    /*           DISTÂNCIA PARA DIREITA     QUANTO A BAIXO VAI A SOMBRA  NÍVEL DE ESFUMAÇAMENTO    COR DA SOMBRA */
+    text-shadow:            0px                     2px                     3px                       #00f;
+}

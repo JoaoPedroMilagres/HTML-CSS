@@ -1,0 +1,31 @@
+/* Só existem 140 cores salvas no HTML. */
+/* 
+    Cores primárias
+
+    R: RED
+    G: GREEN
+    B: BLUE
+
+    As demais cores em telas, são misturas dessas 3 cores.
+ */
+
+/* FORMAS DE ATRIBUIR CORES */
+
+#paragrafo1 {
+    /* USANDO O NOME DA COR. É LIMITADO. */
+    background-color: bisque;
+    color: blue;
+}
+
+#paragrafo2 {
+    /* USANDO O VALOR RGB (RED, GREEN, BLUE). O VALOR VAI DE 0 A 255. AINDA ASSIM HÁ LIMITAÇÕES */
+    background-color: rgb(211, 11, 238);
+    color: brown;
+}
+
+#paragrafo3 {
+    /* USANDO O VALOR HEXADECIMAL. RR GG BB. O VALOR VAI DE 0 A 9 A A F. POSSIBILITA UMA QUANTIDADE ENORME DE CORES, É MENOS LIMITADO. */
+    background-color: #7b88ff;
+    color: darkgreen;
+}
+

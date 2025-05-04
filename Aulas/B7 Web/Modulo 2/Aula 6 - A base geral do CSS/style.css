@@ -1,0 +1,27 @@
+h1 {
+    color: brown;
+}
+
+#titulo1 {
+    color: blue;
+}
+
+.titulo2 {
+    color: blueviolet;
+}
+
+/* estilizando o id e a class juntos */
+#titulo1, .titulo2 {
+    font-size: 40px;
+    font-style: italic;
+    margin: auto;
+}
+
+
+
+/* selecionando um elemento que está dentro de outro elemento */
+ul li {
+    color: blueviolet;
+    font-style: italic;
+    font-size: 20px;
+}

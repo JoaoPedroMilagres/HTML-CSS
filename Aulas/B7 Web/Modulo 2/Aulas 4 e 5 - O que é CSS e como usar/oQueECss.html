@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>O Que é Css e Como Funciona?</title>
+
+        <!-- Css interno. É aberto um escopo de estilizção dentro do código HTML -->
+        <style>
+            .paragrafo {
+                font-size: 40px;
+                color: blueviolet;
+                font-style: italic;
+            }            
+
+            .paragrafo:hover {
+                transition: ease-in-out 600ms;
+                color: aqua;
+            }
+        </style>
+
+        <!-- css externo. É criado um arquivo a parte, para manipular somente o css -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!-- 
+        - O que é CSS? Folhas de Estilo em Cascata (Cascading Style Sheets) 
+        - Descreve como elementos html deve ser exibidos na tela, em papél ou outras mídias
+        - Formas de usar o CSS em um arquivo HTML: inline, interno e externo
+        - Linguagem baseada em regras
+    -->
+    <body>
+        <!-- Css inline. Css aplicado direto no elemento HTML -->
+        <p style="color: brown; font-style: italic; font-size: 50px;">Meu parágrafo com css inline</p>
+
+        <p class="paragrafo">Meu parágrafo com css interno</p>
+
+        <p id="paragrafo">Meu parágrafo com css externo</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png" alt="MichaelScott">
+    </body>
+</html>

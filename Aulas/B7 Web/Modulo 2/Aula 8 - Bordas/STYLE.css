@@ -1,0 +1,26 @@
+p {
+            /* LARGURA - ESTILO - COR  */
+   border: 20px double #00f; 
+
+   /* RAIO DA BORDA */
+   border-radius: 30px;
+
+    /* 
+        COLOCANDO BORDA EM APENAS UM LADO
+        border-right: 20px double #00f;     
+    */
+
+    /* BORDAS MAIS USADAS: SOLID, DASHED, DOTTED */
+}
+
+div {
+    width: 200px;
+    height: 200px;
+
+    border: 7px dotted black;
+    /* PARA FAZER O ELEMENTO FICAR REDONDO USANDO O BORDER
+    RADIUS, BASTA DEFINIR O VALOR DO ATRIBUTO COMO METADE DA ALTURA OU LARGURA DO ELEMENTO */
+    border-radius: 50%;
+    background-color: blueviolet;
+
+}

@@ -1,0 +1,40 @@
+/* 
+
+
+    🔹 Exercício 3: Crie um parágrafo com min-height: 50px e max-height: 100px. Adicione um overflow: auto; para testar o comportamento do conteúdo quando a altura máxima for atingida.
+
+    🔹 Exercício 4: Crie uma div que tenha min-width: 200px e max-width: 500px, para que ela se ajuste conforme o tamanho da tela.
+*/
+
+.exc1 {
+    width: 300px;
+    height: 200px;
+
+    background-color: #00f;
+}
+
+.exc2 {
+    width: 150px;
+
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.exc3 {
+    min-height: 50px;
+    max-height: 100px;
+
+    overflow: auto;
+
+    background-color: blanchedalmond;
+}
+
+.exc4 {
+    width: 200px;
+    height: 100px;
+
+    min-width: 200px;
+    max-width: 500px;
+    
+    background-color: blueviolet;
+}
