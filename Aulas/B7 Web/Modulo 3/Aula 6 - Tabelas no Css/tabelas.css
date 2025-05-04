@@ -1,0 +1,32 @@
+.tabela {
+    width: 400px;
+
+ 
+}
+
+/* th, td {
+    DEFININDO UMA BORDA PARA TODO O CONTEUDO DA TABELA E PARA O CABEÇALHO
+    border: solid 2px black;
+} */
+
+table thead {
+    background-color: rgb(93, 150, 216); 
+}
+
+table tbody {
+    background-color: rgb(151, 206, 223);
+}
+
+td {
+    border-bottom: solid 2px black ;
+}
+
+/* TROCA A COR DE FUNDO QUANDO O MOUSE É PASSADO EM CIMA DA LINHA */
+tr:hover {
+    background-color: cyan;
+}
+
+/* DESSA FORMA, É POSSIVE ESCOLHER SÓ AS LINHAS PARES OU ÍMPARES */
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
