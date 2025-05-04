@@ -1,0 +1,101 @@
+/*
+    A PÁGINA ORIGINAL FOI DESENVOLVIDA PELO SITE NICEPAGE. TENTEI CRIAR A MINHA PÁGINA
+    DE FORMA PARECIDA COM A ORIGINAL, MAS, ADICIONANDO ALGUMAS ALTERAÇÕES. LINK PÁGINA 
+    ORIGINAL: https://nicepage.com/sf/75480/car-repair-website-builder-software
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 60px 0px 0px;
+
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
+#slogan {
+    margin: 16px 0px 0px;
+
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+#imgCard1, #imgCard2, #img3, #card1, #card2 {
+    width: 360px;
+}
+
+#img3 {
+    height: 518px;
+
+    background-image: url(https://esteponataxis.com/wp-content/uploads/2023/06/about-taxi-estepona.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;/* ALINHA TODOS NO INÍCIO */
+}
+
+#card1, #card2, #img3 {
+    margin: 40px 15px;
+}
+
+.nomeServico {
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.descServico {
+    text-align: left;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+footer {
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 13px;
+    background-color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+a {
+    color: #adcce9;
+}
